@@ -1,0 +1,13 @@
+Git init    -   iniciamos el seguimiento en la carpeta especificada
+Git status  -   Nos muestra el estado actual de Git
+Git add "archivo"   -   Añadimos el archivo a la lista de seguimiento
+Git commit -m "comentario"  -   Guardamos cambios 
+git config --global user.email "you@example.com"    -   añadimos un email
+git config --global user.name "Tu Nombre"           -   añadimos un Nombre
+git config --list   -   Nos muestra la configuración actual
+git add .   -   Nos añade todos los cambios existentes
+git log "archivo"   -   Nos muestra el historial del archivo
+git show "archivo"  -   Nos muestra los cambios realizados en un archivo
+git diff "codigo" "codigo"  -   muestra la diferencia entre dos versiones
+git reset "version" --hard  -   Volvemos a un estado anterior. con --hard/--soft todo vuelve al estado anterior, con soft volvemos a la versión anterior pero mantiene los cambios.
+
