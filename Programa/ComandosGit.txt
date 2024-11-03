@@ -13,3 +13,9 @@ git reset "version" --hard  -   Volvemos a un estado anterior. con --hard/--soft
 git log --stat  -   Muestra todos los cambios
 git checkout "version" "archivo"  -   Para ver el estado en que se encontraba un fichero
 git checkout master "archivo"   -   volvemos a la última versión que habiamos guardado
+
+git clone url   -   Traemos un repositorio de una fuente remota
+git push        -   Enviamos los cambios a la fuente remota
+git fetch       -   Traemos cualquier actualización que se haya creado por cualquiera que tenga acceso al proyecto
+git merge       -   Nos une lo traido con fetch con lo que tenemos en el repositorio local
+git pull        -   Este comando realiza la misma función que los dos anteriores
