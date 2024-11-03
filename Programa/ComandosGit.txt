@@ -10,4 +10,6 @@ git log "archivo"   -   Nos muestra el historial del archivo
 git show "archivo"  -   Nos muestra los cambios realizados en un archivo
 git diff "codigo" "codigo"  -   muestra la diferencia entre dos versiones
 git reset "version" --hard  -   Volvemos a un estado anterior. con --hard/--soft todo vuelve al estado anterior, con soft volvemos a la versión anterior pero mantiene los cambios.
-
+git log --stat  -   Muestra todos los cambios
+git checkout "version" "archivo"  -   Para ver el estado en que se encontraba un fichero
+git checkout master "archivo"   -   volvemos a la última versión que habiamos guardado
