@@ -24,4 +24,8 @@ git branch "nombre de la rama"	- Creamos una nueva rama a partir del header
 git checkout "nombre de la rama" "mensaje"	-	Cambiamos de rama
 git merge "nombre de la rama a unir"	-	El merge se realiza con la rama en la que me encuentro actualmente
 git branch	-	muestra las ramas existentes
-
+git remote add origin "dirección copiada de https-en este caso"
+git remote  -   Nos muestra origin
+git remote -v - Nos muestra las acciones disponibles
+git push origin master- Envia al origen la rama master
+git push origin master --allow-unrelated-histories -   Nos permite actualizar cuando da error por commits
