@@ -29,3 +29,4 @@ git remote  -   Nos muestra origin
 git remote -v - Nos muestra las acciones disponibles
 git push origin master- Envia al origen la rama master
 git push origin master --allow-unrelated-histories -   Nos permite actualizar cuando da error por commits
+git branch -m "nombre actual" "nuevo nombre"
