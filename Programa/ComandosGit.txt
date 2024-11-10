@@ -1,0 +1,31 @@
+Git init    -   iniciamos el seguimiento en la carpeta especificada
+Git status  -   Nos muestra el estado actual de Git
+Git add "archivo"   -   Añadimos el archivo a la lista de seguimiento
+Git commit -m "comentario"  -   Guardamos cambios 
+git config --global user.email "you@example.com"    -   añadimos un email
+git config --global user.name "Tu Nombre"           -   añadimos un Nombre
+git config --list   -   Nos muestra la configuración actual
+git add .   -   Nos añade todos los cambios existentes
+git log "archivo"   -   Nos muestra el historial del archivo
+git show "archivo"  -   Nos muestra los cambios realizados en un archivo
+git diff "codigo" "codigo"  -   muestra la diferencia entre dos versiones
+git reset "version" --hard  -   Volvemos a un estado anterior. con --hard/--soft todo vuelve al estado anterior, con soft volvemos a la versión anterior pero mantiene los cambios.
+git log --stat  -   Muestra todos los cambios
+git checkout "version" "archivo"  -   Para ver el estado en que se encontraba un fichero
+git checkout master "archivo"   -   volvemos a la última versión que habiamos guardado
+
+git clone url   -   Traemos un repositorio de una fuente remota
+git push        -   Enviamos los cambios a la fuente remota
+git fetch       -   Traemos cualquier actualización que se haya creado por cualquiera que tenga acceso al proyecto
+git merge       -   Nos une lo traido con fetch con lo que tenemos en el repositorio local
+git pull        -   Este comando realiza la misma función que los dos anteriores
+git commit -am "mensaje"	-   Realiza el add de los cambios, no funciona con archivos nuevos
+git branch "nombre de la rama"	- Creamos una nueva rama a partir del header
+git checkout "nombre de la rama" "mensaje"	-	Cambiamos de rama
+git merge "nombre de la rama a unir"	-	El merge se realiza con la rama en la que me encuentro actualmente
+git branch	-	muestra las ramas existentes
+git remote add origin "dirección copiada de https-en este caso"
+git remote  -   Nos muestra origin
+git remote -v - Nos muestra las acciones disponibles
+git push origin master- Envia al origen la rama master
+git push origin master --allow-unrelated-histories -   Nos permite actualizar cuando da error por commits
